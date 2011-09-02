@@ -6,5 +6,6 @@ This repo contains a sample project showing how to use the extension method in a
   
 [MappingExtensions/MapperExtensions.cs](https://github.com/mmanela/InheritedAutoMapper/blob/master/MappingExtensions/MapperExtensions.cs)
 
-##Links
-* [Original Blog Post](http://matthewmanela.com/blog/inheriting-base-type-mappings-with-automapper-extension/)
+##Blog Posts
+* [Update on inheriting base type mappings with AutoMapper](http://matthewmanela.com/blog/update-on-inheriting-base-type-mappings-with-automapper/)
+* [Inheriting base type mappings with AutoMapper](http://matthewmanela.com/blog/inheriting-base-type-mappings-with-automapper-extension/)

@@ -5,13 +5,6 @@ namespace AutoMapper.Extensions
 {
     public static class Inheritance
     {
-        public enum WithBaseFor
-        {
-            Source,
-            Destination,
-            Both
-        }
-
         public static void InheritMappingFromBaseType<TSource, TDestination>(this IMappingExpression<TSource, TDestination> mappingExpression,
                                                                              WithBaseFor baseFor = WithBaseFor.Both)
         {

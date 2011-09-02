@@ -31,7 +31,7 @@ namespace InheritedAutoMapper
                 .ForMember(x => x.BasePropTwo, m => m.MapFrom(x => x.BaseProp2));
 
             Mapper.CreateMap<SourceBaseClass, DestChildClass>()
-                .InheritMappingFromBaseType(Inheritance.WithBaseFor.Destination);
+                .InheritMappingFromBaseType(WithBaseFor.Destination);
         }
     }
 }
