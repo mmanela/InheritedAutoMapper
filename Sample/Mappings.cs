@@ -1,4 +1,5 @@
 using AutoMapper;
+using AutoMapper.Extensions;
 
 namespace InheritedAutoMapper
 {
@@ -30,7 +31,7 @@ namespace InheritedAutoMapper
                 .ForMember(x => x.BasePropTwo, m => m.MapFrom(x => x.BaseProp2));
 
             Mapper.CreateMap<SourceBaseClass, DestChildClass>()
-                .InheritMappingFromBaseType(MapperExtensions.WithBaseFor.Right);
+                .InheritMappingFromBaseType(Inheritance.WithBaseFor.Right);
         }
     }
 }

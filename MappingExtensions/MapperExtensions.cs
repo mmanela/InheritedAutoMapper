@@ -1,10 +1,9 @@
 using System;
 using System.Linq;
-using AutoMapper;
 
-namespace InheritedAutoMapper
+namespace AutoMapper.Extensions
 {
-    public static class MapperExtensions
+    public static class Inheritance
     {
         public enum WithBaseFor
         {

@@ -11,6 +11,7 @@ namespace InheritedAutoMapper
             var exeWrapper = new ExecutorWrapper(Assembly.GetExecutingAssembly().Location, null, true);
             var builder = TestAssemblyBuilder.Build(exeWrapper);
 
+            Console.WriteLine("AutoMapper Inheritance Extension Sample\n\n");
             builder.Run(builder.EnumerateTestMethods(), new TestRunnerCallback());
         }
 
