@@ -7,8 +7,8 @@ namespace AutoMapper.Extensions
     {
         public enum WithBaseFor
         {
-            Left,
-            Right,
+            Source,
+            Destination,
             Both
         }
 
@@ -17,11 +17,11 @@ namespace AutoMapper.Extensions
         {
             var sourceType = typeof (TSource);
             var destinationType = typeof (TDestination);
-            var sourceParentType = baseFor == WithBaseFor.Both || baseFor == WithBaseFor.Left
+            var sourceParentType = baseFor == WithBaseFor.Both || baseFor == WithBaseFor.Source
                                        ? sourceType.BaseType
                                        : sourceType;
 
-            var destinationParentType = baseFor == WithBaseFor.Both || baseFor == WithBaseFor.Right
+            var destinationParentType = baseFor == WithBaseFor.Both || baseFor == WithBaseFor.Destination
                                             ? destinationType.BaseType
                                             : destinationType;
 
