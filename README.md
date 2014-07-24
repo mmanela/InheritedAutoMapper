@@ -7,3 +7,6 @@ This repo contains a sample project showing how to use the extension method in a
 ##Blog Posts
 * [Update on inheriting base type mappings with AutoMapper](http://matthewmanela.com/blog/update-on-inheriting-base-type-mappings-with-automapper/)
 * [Inheriting base type mappings with AutoMapper](http://matthewmanela.com/blog/inheriting-base-type-mappings-with-automapper-extension/)
+
+
+__License:__ MIT
